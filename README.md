@@ -2,5 +2,7 @@
 small projects that don't belong to anything larger than themselves.
 
 ## File descriptions:
-  anagram.py - A simple string scrambler with a retry loop.
+  
+### anagram.py:  
+  A simple string scrambler with a retry loop.
 
