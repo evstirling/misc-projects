@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codecademy Cheat Sheet | ev stirling</title>
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Roboto+Mono:wght@200;400;700&family=Titillium+Web:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#html">html</a></li>
+                    <li><a href="#css">css</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="home">HTML/CSS Cheat Sheet</h1>
+
+<!---  HTML SECTION  -->
+
+            <h2 id="html">HTML</h2>
+            <h3>Hypertext Markup Language</h3>
+            <p>
+                <em>HTML</em>, or <em>Hypertext Markup Language</em> is a programming language, widely used to create the structure of web content.
+                <em>HTML</em> elements are formed with opening and closing tags, placing the content within them.  
+                For more information, check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
+            </p>
+            <div class="html_section">
+                <table>
+                    <thead>
+                    <tr>
+                        <th id="col1" scope="col">HTML tag</th>
+                        <th id="col2" scope="col">Usage</th>
+                        <th id="col3" scope="col">Display type</th>
+                        <th id="col4" scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="odd">
+                        <td id="col1" class="code"><em>&lt;h1&gt;-&lt;h6&gt;</em></td>
+                        <td id="col2">Headings in descending order from 1 to 6.</td>
+                        <td id="col3">Block</td>
+                        <td id="col4" class="code"><em>&lt;h1&gt;</em>This is a title!<em>&lt;/h1&gt;</em></td>
+                    </tr>
+                    <tr id="even">
+                        <td id="col1" class="code"><em>&lt;p&gt;</em></td>
+                        <td id="col2">Paragraph text block, for long sets of text.</td>
+                        <td id="col3">Block</td>
+                        <td id="col4" class="code"><em>&lt;p&gt;</em>Lorem ipsum dolor sit amet, consectetur...<em>&lt;/p&gt;</em> </td>
+                    </tr>
+                    <tr id="odd">
+                        <td id="col1" class="code"><em>&lt;a&gt;</em></td>
+                        <td id="col2">Creates hyperlinks, specified with href.</td>
+                        <td id="col3">Inline</td>
+                        <td id="col4" class="code"><em>&lt;a</em> href="https://github.com/evstirling"<em>&gt;</em>ev stirling<em>&lt;/a&gt;</em></td>
+                    </tr>
+                    <tr id="even">
+                        <td id="col1" class="code"><em>&lt;img&gt;</em></td>
+                        <td id="col2">Embed an image and provide alt text.</td>
+                        <td id="col3">Block</td>
+                        <td id="col4" class="code"><em>&lt;img</em> src="../resources/logo.png alt="Company logo." <em>/&gt;</em></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+<!--- CSS SECTION  -->
+
+            <h2 id="css">CSS</h2>
+            <h3>Cascading Style Sheets</h3>
+            <p>
+                <em>CSS</em>, or <em>Cascading Style Sheets</em>, is a method of modifiying the display of <em>HTML</em> elements through style rules.
+                This allows webpages to be much more dynamic and user friendly.
+                For more information, check <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs</a>. 
+            </p>
+            <div class="css_section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="col1" scope="col">CSS property</th>
+                            <th id="col2" scope="col">Usage</th>
+                            <th id="col4" scope="col">Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="odd">
+                            <td id="col1" class="code"><em>color</em></td>
+                            <td id="col2">Modify text color.</td>
+                            <td id="col4" class="code"><em>color:</em> rgb(147, 108, 179);</td>
+                        </tr>
+                        <tr id="even">
+                            <td id="col1" class="code"><em>font-family</em></td>
+                            <td id="col2">Set font type and fallback fonts.</td>
+                            <td id="col4" class="code"><em>font-family:</em> 'Times New Roman', serif;</td>
+                        </tr>
+                        <tr id="odd">
+                            <td id="col1" class="code"><em>display</em></td>
+                            <td id="col2">Modify display type - block, inline, or inline-block.</td>
+                            <td id="col4" class="code"><em>display:</em> inline-block;</td>
+                        </tr>
+                        <tr id="even">
+                            <td id="col1" class="code"><em>opacity</em></td>
+                            <td id="col2">Modify element opacity.</td>
+                            <td id="col4" class="code"><em>opacity:</em> 0.7;</td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+        <p id="disclaimer">
+            These are not exhaustive lists. Made for demonstration purposes only. Visit MDN docs, linked in the respeciive summaries, for more information. 
+        </p>
+        </main>
+        <footer>
+            <span>Built for <a href="https://www.codecademy.com/career-journey/full-stack-engineer" target="_blank">Codecademy's</a> Challenge Project: Build Your Own Cheat Sheet</span> 
+            <span class="git_link">github: <a href="https://github.com/evstirling" target="_blank"><em>ev stirling</em></a></span>
+            <span class="git_link">2022</span>
+        </footer>
+    </body>
+</html>
