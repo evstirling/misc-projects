@@ -8,6 +8,6 @@ small projects that don't belong to anything larger than themselves.
 
 ## Web projects:
 
-### Codecademy Cheatsheet
+### Codecademy Cheatsheet:
   Short website built for the 'Make your own cheatsheet' challenge in the full-stack engineer track.
 
