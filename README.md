@@ -6,7 +6,7 @@ small projects that don't belong to anything larger than themselves.
 ### anagram.py:  
   A simple string scrambler with a retry loop.
 
-### encryptor.py
+### encryptor.py:
   A simple encryption alogrithm. Scrambles individual characters and then scrambles the entire string.
   Decryption coming soon!
 
